@@ -1,0 +1,84 @@
+body {
+  padding: 15px;
+  background-color: #0D242F;
+}
+
+.head{
+  background-color: #19333f;
+  color: 	#A79463;
+  text-align: left;
+  border: 1px solid #415C6A;
+}
+
+.head h2 {
+  margin: 10px;
+}
+
+.streamerOn {
+  background-color: #1A472E;
+  color: #46775C;
+  border: 1px solid #46775C;
+  padding: 10px 10px 10px 10px;
+  float: left;
+  width: 100%;
+}
+
+.streamerOn a {
+  color: #02200F;
+}
+
+.streamerOff {
+  background-color: #643224;
+  color: #A77163;
+  border: 1px solid #A77163;
+  padding: 10px 10px 10px 10px;
+  float: left;
+  width: 100%;
+}
+
+.streamerOff a {
+  color: #2D0C03;
+}
+
+.closed {
+  background-color: #645224;
+  color: #A79463;
+  border: 1px solid #A79463;
+  padding: 10px 10px 10px 10px;
+  float: left;
+  width: 100%;
+}
+
+.closed a {
+  color: #2D2103;
+}
+
+.logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  float: left;
+}
+
+.name {
+  float: left;
+  margin-left: 50px;
+}
+
+#status {
+  float: right;
+  margin-right: 10px;
+}
+
+#toggle {
+  float: right;
+  text-align: right;
+}
+
+.tog {
+  padding: 5px;
+}
+
+.tog span {
+  cursor: pointer;
+}
